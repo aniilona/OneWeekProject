@@ -1,0 +1,32 @@
+.page{
+	background: url(../pic/SimpleFon.png) top center no-repeat;
+    background-attachment: fixed;
+}
+
+li{
+	color: #696464;
+}
+
+.btn-default{
+	color: #FFF;
+	background-color: #d9697a;
+	border-color: #c05061;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active{
+	color: #FFF;
+	background-color: #eb8d9b;
+	border-color: #c05061;
+
+}
+.btn.focus, .btn:focus{
+	color: #FFF;
+	background-color: #eb8d9b;
+	border-color: #c05061;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover{
+		    color: #FFF;
+	background-color: #eb8d9b;
+	border-color: #c05061;
+}
