@@ -1,15 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Tenor+Sans&subset=latin,cyrillic);
 
-.page{
-	background: url(../pic/SimpleFon.png) top center no-repeat;
+body{
+    background: url(../pic/SimpleFon.png) top center no-repeat;
     background-attachment: fixed;
 }
-
-li{
-	color: #696464;
-	font-family: 'Tenor Sans', sans-serif;
+.centered-form{
+	margin-top: 60px;
 }
 
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+.glowing-border {
+   border-radius: 4px;
+   box-shadow: 0 0 10px #999999!
+   important; 
+} 
+
+h3, input, h4, a, button{
+	font-family: 'Tenor Sans', sans-serif;
+}
 .btn-default{
 	color: #FFF;
 	background-color: #d9697a;
@@ -32,8 +44,4 @@ li{
 		    color: #FFF;
 	background-color: #eb8d9b;
 	border-color: #c05061;
-}
-
-h4,h3,a,button{
-	font-family: 'Tenor Sans', sans-serif;
 }
